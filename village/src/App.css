@@ -1,3 +1,83 @@
 .App {
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
+
+.nav {
+  background-color: #0076c5c4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-header {
+  padding-left: 20px;
+}
+
+.nav-header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-links {
+  display: flex;
+  padding-right: 20px;  
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  align-self: center;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+
+.nav-links a:hover {
+  background: white;
+  color: #0076c5c4;
+}
+
+.nav-links a.activeNavButton {
+  background: white;
+  color: #0076c5c4;
+}
+
+/* SmurfForm */
+.SmurfForm {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 15px;
+}
+
+input {
+  height: auto;
+  font-size: 1.75rem;
+  color: #0076c5c4;
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+button {
+  width: 200px;
+  height: auto;
+  align-self: center;
+  color: #ffffff;
+  background-color: #0076c5c4;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.25rem;
+
+
+  
+}
+

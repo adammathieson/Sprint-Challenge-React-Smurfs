@@ -5,11 +5,12 @@ const NavBar = () => {
     return (
         <div className="nav">
             <div className="nav-header">
-
                 <Link to="/"><h2>Smurf Village</h2></Link>
             </div>
-            <NavLink exact to="/" className="activeNavButton">Smurfs</NavLink>
-            <NavLink exact to="/smurf-form" className="activeNavButton">Add To Village</NavLink>
+            <div className="nav-links">
+                <NavLink exact to="/" activeClassName="activeNavButton">Smurfs</NavLink>
+                <NavLink exact to="/smurf-form" activeClassName="activeNavButton">Add To Village</NavLink>
+            </div>
         </div>
     )
 }
